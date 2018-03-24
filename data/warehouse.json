@@ -1,0 +1,617 @@
+{
+  "WarehouseStrategyConfig": {
+    "Countries": [
+      {
+        "Code": "GBR",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreStandard",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "FRA",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": "^9(?:7|8)" }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": "^9(?:7|8)" }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": "^9(?:7|8)" }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": "^9(?:7|8)" }]
+          },
+          {
+            "Name": "DeliverToStoreStandard",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": "^9(?:7|8)" }]
+          }
+        ]
+      },
+      {
+        "Code": "USA",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [
+              { "Code": "FC03", "PostCodeExclude": null },
+              { "Code": "FC01", "PostCodeExclude": null }
+            ]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [
+              { "Code": "FC03", "PostCodeExclude": null },
+              { "Code": "FC01", "PostCodeExclude": null }
+            ]
+          },
+          {
+            "Name": "MidTier",
+            "Warehouses": [
+              { "Code": "FC03", "PostCodeExclude": null },
+              { "Code": "FC01", "PostCodeExclude": null }
+            ]
+          }
+        ]
+      },
+      {
+        "Code": "IRL",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreStandard",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "DEU",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreStandard",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "ESP",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreStandard",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "ITA",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreStandard",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "NLD",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "SWE",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "BEL",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreStandard",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "AUT",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreStandard",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "POL",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "DNK",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "LUX",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreStandard",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreNextDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "DeliverToStoreExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "BGR",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "HRV",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "CZE",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "EST",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "FIN",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "HUN",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "LVA",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "LTU",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "PRT",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "ROU",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "SVK",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "SVN",
+        "ShippingMethods": [
+          {
+            "Name": "StandardDelivery",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC04", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "CYP",
+        "ShippingMethods": [
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "GRC",
+        "ShippingMethods": [
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          }
+        ]
+      },
+      {
+        "Code": "MLT",
+        "ShippingMethods": [
+          {
+            "Name": "NextWorkingDay",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          },
+          {
+            "Name": "InternationalExpress",
+            "Warehouses": [{ "Code": "FC01", "PostCodeExclude": null }]
+          }
+        ]
+      }
+    ],
+    "StrategyName": null
+  }
+}
